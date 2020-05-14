@@ -29,6 +29,7 @@ namespace Laba_OS_VirtualMemory
             LruTextbox.Text = "";
             if (OpenFileDialog.ShowDialog() == DialogResult.OK)
             {
+
                 string Filename = OpenFileDialog.FileName;
                 try
                 {
